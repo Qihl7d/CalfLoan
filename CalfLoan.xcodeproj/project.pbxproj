@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AAE4D9D54C4936C8660903D /* Pods_CalfLoan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E10A36673F2D9ED14E103C7E /* Pods_CalfLoan.framework */; };
+		F3E240921E83CBD20037D291 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E240911E83CBD20037D291 /* main.m */; };
+		F3E2409D1E83CBD20037D291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E2409C1E83CBD20037D291 /* Assets.xcassets */; };
+		F3E240A01E83CBD20037D291 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E2409E1E83CBD20037D291 /* LaunchScreen.storyboard */; };
+		F3E240AC1E83CC1B0037D291 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E240A91E83CC1B0037D291 /* AppDelegate.m */; };
+		F3E240AD1E83CC1B0037D291 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E240AB1E83CC1B0037D291 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31A26BC1D8A1D8A57F262698 /* Pods-CalfLoan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalfLoan.release.xcconfig"; path = "Pods/Target Support Files/Pods-CalfLoan/Pods-CalfLoan.release.xcconfig"; sourceTree = "<group>"; };
+		6DDDFAB76AA66E09805FD17F /* Pods-CalfLoan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalfLoan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CalfLoan/Pods-CalfLoan.debug.xcconfig"; sourceTree = "<group>"; };
+		E10A36673F2D9ED14E103C7E /* Pods_CalfLoan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalfLoan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E2408D1E83CBD20037D291 /* CalfLoan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalfLoan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E240911E83CBD20037D291 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3E2409C1E83CBD20037D291 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3E2409F1E83CBD20037D291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3E240A11E83CBD20037D291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3E240A81E83CC1B0037D291 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3E240A91E83CC1B0037D291 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3E240AA1E83CC1B0037D291 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F3E240AB1E83CC1B0037D291 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3E2408A1E83CBD20037D291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AAE4D9D54C4936C8660903D /* Pods_CalfLoan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00722EAC1A7B09AFAD3CA404 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DDDFAB76AA66E09805FD17F /* Pods-CalfLoan.debug.xcconfig */,
+				31A26BC1D8A1D8A57F262698 /* Pods-CalfLoan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C9BF5E60F58E1773A86990B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E10A36673F2D9ED14E103C7E /* Pods_CalfLoan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3E240841E83CBD20037D291 = {
+			isa = PBXGroup;
+			children = (
+				F3E2408F1E83CBD20037D291 /* CalfLoan */,
+				F3E2408E1E83CBD20037D291 /* Products */,
+				00722EAC1A7B09AFAD3CA404 /* Pods */,
+				9C9BF5E60F58E1773A86990B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3E2408E1E83CBD20037D291 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3E2408D1E83CBD20037D291 /* CalfLoan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3E2408F1E83CBD20037D291 /* CalfLoan */ = {
+			isa = PBXGroup;
+			children = (
+				F3E240CE1E83CF2F0037D291 /* Discovery */,
+				F3E240D31E83CF2F0037D291 /* Loan */,
+				F3E240D81E83CF2F0037D291 /* Me */,
+				F3E240DD1E83CF2F0037D291 /* Message */,
+				F3E240A71E83CC1B0037D291 /* Main */,
+				F3E240901E83CBD20037D291 /* Supporting Files */,
+			);
+			path = CalfLoan;
+			sourceTree = "<group>";
+		};
+		F3E240901E83CBD20037D291 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3E2409C1E83CBD20037D291 /* Assets.xcassets */,
+				F3E2409E1E83CBD20037D291 /* LaunchScreen.storyboard */,
+				F3E240A11E83CBD20037D291 /* Info.plist */,
+				F3E240911E83CBD20037D291 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3E240A71E83CC1B0037D291 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F3E240A81E83CC1B0037D291 /* AppDelegate.h */,
+				F3E240A91E83CC1B0037D291 /* AppDelegate.m */,
+				F3E240AA1E83CC1B0037D291 /* ViewController.h */,
+				F3E240AB1E83CC1B0037D291 /* ViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F3E240CE1E83CF2F0037D291 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				F3E240CF1E83CF2F0037D291 /* Controllers */,
+				F3E240D01E83CF2F0037D291 /* Models */,
+				F3E240D11E83CF2F0037D291 /* Presenters */,
+				F3E240D21E83CF2F0037D291 /* Views */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		F3E240CF1E83CF2F0037D291 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F3E240D01E83CF2F0037D291 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F3E240D11E83CF2F0037D291 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		F3E240D21E83CF2F0037D291 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F3E240D31E83CF2F0037D291 /* Loan */ = {
+			isa = PBXGroup;
+			children = (
+				F3E240D41E83CF2F0037D291 /* Controllers */,
+				F3E240D51E83CF2F0037D291 /* Models */,
+				F3E240D61E83CF2F0037D291 /* Presenters */,
+				F3E240D71E83CF2F0037D291 /* Views */,
+			);
+			path = Loan;
+			sourceTree = "<group>";
+		};
+		F3E240D41E83CF2F0037D291 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F3E240D51E83CF2F0037D291 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F3E240D61E83CF2F0037D291 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		F3E240D71E83CF2F0037D291 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F3E240D81E83CF2F0037D291 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				F3E240D91E83CF2F0037D291 /* Controllers */,
+				F3E240DA1E83CF2F0037D291 /* Models */,
+				F3E240DB1E83CF2F0037D291 /* Presenters */,
+				F3E240DC1E83CF2F0037D291 /* Views */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		F3E240D91E83CF2F0037D291 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F3E240DA1E83CF2F0037D291 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F3E240DB1E83CF2F0037D291 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		F3E240DC1E83CF2F0037D291 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F3E240DD1E83CF2F0037D291 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				F3E240DE1E83CF2F0037D291 /* Controllers */,
+				F3E240DF1E83CF2F0037D291 /* Models */,
+				F3E240E01E83CF2F0037D291 /* Presenters */,
+				F3E240E11E83CF2F0037D291 /* Views */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		F3E240DE1E83CF2F0037D291 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F3E240DF1E83CF2F0037D291 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F3E240E01E83CF2F0037D291 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		F3E240E11E83CF2F0037D291 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3E2408C1E83CBD20037D291 /* CalfLoan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3E240A41E83CBD20037D291 /* Build configuration list for PBXNativeTarget "CalfLoan" */;
+			buildPhases = (
+				CB51729F381353E8F13732DD /* [CP] Check Pods Manifest.lock */,
+				F3E240891E83CBD20037D291 /* Sources */,
+				F3E2408A1E83CBD20037D291 /* Frameworks */,
+				F3E2408B1E83CBD20037D291 /* Resources */,
+				6F497359811F2AAF2717BBB9 /* [CP] Embed Pods Frameworks */,
+				D978DA284C7A6A62E8F99D8F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalfLoan;
+			productName = CalfLoan;
+			productReference = F3E2408D1E83CBD20037D291 /* CalfLoan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3E240851E83CBD20037D291 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ShangHaiHongLu;
+				TargetAttributes = {
+					F3E2408C1E83CBD20037D291 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F3E240881E83CBD20037D291 /* Build configuration list for PBXProject "CalfLoan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3E240841E83CBD20037D291;
+			productRefGroup = F3E2408E1E83CBD20037D291 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3E2408C1E83CBD20037D291 /* CalfLoan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3E2408B1E83CBD20037D291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E240A01E83CBD20037D291 /* LaunchScreen.storyboard in Resources */,
+				F3E2409D1E83CBD20037D291 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F497359811F2AAF2717BBB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalfLoan/Pods-CalfLoan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB51729F381353E8F13732DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D978DA284C7A6A62E8F99D8F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalfLoan/Pods-CalfLoan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3E240891E83CBD20037D291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E240AD1E83CC1B0037D291 /* ViewController.m in Sources */,
+				F3E240AC1E83CC1B0037D291 /* AppDelegate.m in Sources */,
+				F3E240921E83CBD20037D291 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3E2409E1E83CBD20037D291 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3E2409F1E83CBD20037D291 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3E240A21E83CBD20037D291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3E240A31E83CBD20037D291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3E240A51E83CBD20037D291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DDDFAB76AA66E09805FD17F /* Pods-CalfLoan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/XNSD_iOS_Common/XNSD_iOS_Common/**",
+					"$(SRCROOT)/XNSD_iOS_Service/XNSD_iOS_Service/**",
+				);
+				INFOPLIST_FILE = CalfLoan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CalfLoan.CalfLoan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3E240A61E83CBD20037D291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31A26BC1D8A1D8A57F262698 /* Pods-CalfLoan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/XNSD_iOS_Common/XNSD_iOS_Common/**",
+					"$(SRCROOT)/XNSD_iOS_Service/XNSD_iOS_Service/**",
+				);
+				INFOPLIST_FILE = CalfLoan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CalfLoan.CalfLoan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3E240881E83CBD20037D291 /* Build configuration list for PBXProject "CalfLoan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E240A21E83CBD20037D291 /* Debug */,
+				F3E240A31E83CBD20037D291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3E240A41E83CBD20037D291 /* Build configuration list for PBXNativeTarget "CalfLoan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E240A51E83CBD20037D291 /* Debug */,
+				F3E240A61E83CBD20037D291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3E240851E83CBD20037D291 /* Project object */;
+}

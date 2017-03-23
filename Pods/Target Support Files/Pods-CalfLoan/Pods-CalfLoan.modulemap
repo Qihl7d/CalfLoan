@@ -1,0 +1,6 @@
+framework module Pods_CalfLoan {
+  umbrella header "Pods-CalfLoan-umbrella.h"
+
+  export *
+  module * { export * }
+}
