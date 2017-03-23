@@ -17,6 +17,9 @@
 		F3E241491E83DF0E0037D291 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E241471E83DF0E0037D291 /* BaseViewController.m */; };
 		F3E2414C1E83DF360037D291 /* BasePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E2414B1E83DF360037D291 /* BasePresenter.m */; };
 		F3E2414F1E83DF7A0037D291 /* XNSDLoanHomePagePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E2414E1E83DF7A0037D291 /* XNSDLoanHomePagePresenter.m */; };
+		F3E241521E83EE930037D291 /* XNSDDiscoveryHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E241511E83EE930037D291 /* XNSDDiscoveryHomePageViewController.m */; };
+		F3E241551E83EEDA0037D291 /* XNSDMessageHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E241541E83EEDA0037D291 /* XNSDMessageHomePageViewController.m */; };
+		F3E241581E83EEF60037D291 /* XNSDMeHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E241571E83EEF60037D291 /* XNSDMeHomePageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,12 @@
 		F3E2414B1E83DF360037D291 /* BasePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePresenter.m; sourceTree = "<group>"; };
 		F3E2414D1E83DF7A0037D291 /* XNSDLoanHomePagePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNSDLoanHomePagePresenter.h; sourceTree = "<group>"; };
 		F3E2414E1E83DF7A0037D291 /* XNSDLoanHomePagePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNSDLoanHomePagePresenter.m; sourceTree = "<group>"; };
+		F3E241501E83EE930037D291 /* XNSDDiscoveryHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNSDDiscoveryHomePageViewController.h; sourceTree = "<group>"; };
+		F3E241511E83EE930037D291 /* XNSDDiscoveryHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNSDDiscoveryHomePageViewController.m; sourceTree = "<group>"; };
+		F3E241531E83EEDA0037D291 /* XNSDMessageHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNSDMessageHomePageViewController.h; sourceTree = "<group>"; };
+		F3E241541E83EEDA0037D291 /* XNSDMessageHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNSDMessageHomePageViewController.m; sourceTree = "<group>"; };
+		F3E241561E83EEF60037D291 /* XNSDMeHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNSDMeHomePageViewController.h; sourceTree = "<group>"; };
+		F3E241571E83EEF60037D291 /* XNSDMeHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNSDMeHomePageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +173,8 @@
 		F3E2412F1E83DDE70037D291 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F3E241501E83EE930037D291 /* XNSDDiscoveryHomePageViewController.h */,
+				F3E241511E83EE930037D291 /* XNSDDiscoveryHomePageViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -246,6 +257,8 @@
 		F3E241391E83DDE70037D291 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F3E241561E83EEF60037D291 /* XNSDMeHomePageViewController.h */,
+				F3E241571E83EEF60037D291 /* XNSDMeHomePageViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -285,6 +298,8 @@
 		F3E2413E1E83DDE70037D291 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F3E241531E83EEDA0037D291 /* XNSDMessageHomePageViewController.h */,
+				F3E241541E83EEDA0037D291 /* XNSDMessageHomePageViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -451,9 +466,12 @@
 			files = (
 				F3E240921E83CBD20037D291 /* main.m in Sources */,
 				F3E241491E83DF0E0037D291 /* BaseViewController.m in Sources */,
+				F3E241521E83EE930037D291 /* XNSDDiscoveryHomePageViewController.m in Sources */,
 				F3E2414F1E83DF7A0037D291 /* XNSDLoanHomePagePresenter.m in Sources */,
 				F3E241441E83DEA70037D291 /* XNSDLoanHomePageViewController.m in Sources */,
+				F3E241551E83EEDA0037D291 /* XNSDMessageHomePageViewController.m in Sources */,
 				F3E2412C1E83DD710037D291 /* ViewController.m in Sources */,
+				F3E241581E83EEF60037D291 /* XNSDMeHomePageViewController.m in Sources */,
 				F3E2412B1E83DD710037D291 /* AppDelegate.m in Sources */,
 				F3E2414C1E83DF360037D291 /* BasePresenter.m in Sources */,
 			);
