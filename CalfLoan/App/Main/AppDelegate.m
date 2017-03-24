@@ -8,6 +8,11 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "XNSDLoanHomePageViewController.h"
+#import "XNSDDiscoveryHomePageViewController.h"
+#import "XNSDMessageHomePageViewController.h"
+#import "XNSDMeHomePageViewController.h"
+#import "BaseNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -19,7 +24,30 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[[ViewController alloc]init]];
+    
+    UITabBarController *tabBar = [[UITabBarController alloc]init];
+    
+    
+    BaseNavigationController *foundNav = [[BaseNavigationController alloc] initWithRootViewController:[[XNSDDiscoveryHomePageViewController alloc] init]];
+    
+    UITabBarItem *item1 = [[UITabBarItem alloc] initWithTitle:@"发现" image:[UIImage imageNamed:@"xnsd_tabar_discovery_nomal"] selectedImage:[UIImage imageNamed:@"xnsd_tabar_discovery_selected"]];
+    foundNav.tabBarItem = item1;
+    
+    BaseNavigationController *loanNav = [[BaseNavigationController alloc] initWithRootViewController:[[XNSDLoanHomePageViewController alloc] init]];
+    UITabBarItem *item2 = [[UITabBarItem alloc] initWithTitle:@"借款" image:[UIImage imageNamed:@"xnsd_tabar_loan_normal"] selectedImage:[[UIImage imageNamed:@"xnsd_tabar_loan_selected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
+    loanNav.tabBarItem = item2;
+    
+    BaseNavigationController *messageNav = [[BaseNavigationController alloc] initWithRootViewController:[[XNSDMessageHomePageViewController alloc] init]];
+    UITabBarItem *item3 = [[UITabBarItem alloc] initWithTitle:@"消息" image:[UIImage imageNamed:@"xnsd_tabar_message_nomal"] selectedImage:[[UIImage imageNamed:@"xnsd_tabar_message_selected"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
+    messageNav.tabBarItem = item3;
+    
+    BaseNavigationController *meNav = [[BaseNavigationController alloc] initWithRootViewController:[[XNSDMeHomePageViewController alloc] init]];
+    UITabBarItem *item4 = [[UITabBarItem alloc] initWithTitle:@"我的" image:[UIImage imageNamed:@"xnsd_tabar_me_nomal"] selectedImage:[UIImage imageNamed:@"xnsd_tabar_me_selected"]];
+    meNav.tabBarItem = item4;
+    
+    tabBar.viewControllers = @[loanNav, foundNav, messageNav, meNav];
+    tabBar.tabBar.tintColor = [UIColor colorWithRed:255.0/255.0 green:147.0/255.0 blue:0.0/255.0 alpha:1];
+    self.window.rootViewController = tabBar;
     [self.window makeKeyAndVisible];
     return YES;
 }

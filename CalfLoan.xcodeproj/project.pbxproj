@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1AAE4D9D54C4936C8660903D /* Pods_CalfLoan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E10A36673F2D9ED14E103C7E /* Pods_CalfLoan.framework */; };
+		F39AFEC11E84BC5300AC4C89 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39AFEC01E84BC5300AC4C89 /* BaseNavigationController.m */; };
 		F3E240921E83CBD20037D291 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E240911E83CBD20037D291 /* main.m */; };
 		F3E2409D1E83CBD20037D291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E2409C1E83CBD20037D291 /* Assets.xcassets */; };
 		F3E240A01E83CBD20037D291 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E2409E1E83CBD20037D291 /* LaunchScreen.storyboard */; };
@@ -26,6 +27,8 @@
 		31A26BC1D8A1D8A57F262698 /* Pods-CalfLoan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalfLoan.release.xcconfig"; path = "Pods/Target Support Files/Pods-CalfLoan/Pods-CalfLoan.release.xcconfig"; sourceTree = "<group>"; };
 		6DDDFAB76AA66E09805FD17F /* Pods-CalfLoan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalfLoan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CalfLoan/Pods-CalfLoan.debug.xcconfig"; sourceTree = "<group>"; };
 		E10A36673F2D9ED14E103C7E /* Pods_CalfLoan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalfLoan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39AFEBF1E84BC5300AC4C89 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		F39AFEC01E84BC5300AC4C89 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		F3E2408D1E83CBD20037D291 /* CalfLoan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalfLoan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E240911E83CBD20037D291 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F3E2409C1E83CBD20037D291 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -330,6 +333,8 @@
 			children = (
 				F3E241461E83DF0E0037D291 /* BaseViewController.h */,
 				F3E241471E83DF0E0037D291 /* BaseViewController.m */,
+				F39AFEBF1E84BC5300AC4C89 /* BaseNavigationController.h */,
+				F39AFEC01E84BC5300AC4C89 /* BaseNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -465,6 +470,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3E240921E83CBD20037D291 /* main.m in Sources */,
+				F39AFEC11E84BC5300AC4C89 /* BaseNavigationController.m in Sources */,
 				F3E241491E83DF0E0037D291 /* BaseViewController.m in Sources */,
 				F3E241521E83EE930037D291 /* XNSDDiscoveryHomePageViewController.m in Sources */,
 				F3E2414F1E83DF7A0037D291 /* XNSDLoanHomePagePresenter.m in Sources */,
