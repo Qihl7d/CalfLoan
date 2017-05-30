@@ -9,6 +9,7 @@ def shared_pods
     pod 'shareSDK', '~> 0.0.2'
     pod 'MBProgressHUD', '~> 1.0.0'
     pod 'AFNetworking', '~> 3.1.0'
+    pod 'AMap2DMap', '~> 4.6.0'
 end
 
 target 'CalfLoan' do
