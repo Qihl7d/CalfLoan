@@ -34,6 +34,11 @@ Copyright © 2014 AutoNavi. All Rights Reserved.
 Copyright © 2014 AutoNavi. All Rights Reserved.
 
 
+## AMapLocation
+
+Copyright © 2014 AutoNavi. All Rights Reserved.
+
+
 ## MBProgressHUD
 
 Copyright © 2009-2016 Matej Bukovinski
